@@ -9,11 +9,11 @@
 <body>
 	<script>
 		while (true) {
-			var resposta = prompt("Digite a senha:", "")
+			var resposta = prompt("Digite a senha:", "");
 			if (resposta == null || resposta == "") {
-				location.href = location.href
+				location.href = location.href;
 			} else if (resposta == "jeniffer") {
-				location.href = "http://localhost/riddle/stuff/fsi.html"
+				redirect("fsi")
 				break;
 			}
 		}

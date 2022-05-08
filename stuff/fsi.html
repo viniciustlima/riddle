@@ -43,11 +43,11 @@
 	</center>
 	<script>
 		function responder() {
-			var resposta = prompt("Digite a resposta:", "")
+			var resposta = prompt("Digite a resposta:", "");
 			if (resposta == null || resposta == "") {
-				alert("Esse campo não pode ficar em branco! Digite sua resposta.")
+				alert("Esse campo não pode ficar em branco! Digite sua resposta.");
 			} else if (resposta == "homem") {
-				location.href = "http://localhost/riddle/stuff/a01.html"
+				redirect("a01");
 			}
 		}
 	</script>
