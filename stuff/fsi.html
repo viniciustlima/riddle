@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Riddle - Início</title>
+	<link rel="stylesheet" href="../css/css.css">
+</head>
+<body>
+	<center>
+		<section>
+			<h2>Olá!</h2>
+			<p>Este é um enigma com 10 fases (ou 12, se contar essa primeira e a última de bônus). Cada fase tem uma palavra aléatória como senha, e você terá que descobrir ela por conta própria. Todas as dicas do enigma estarão disponíveis na fase em que você estiver, você não terá mais dicas.</p>
+			<br>
+			<p>A cada fase que você passa, o enigma fica mais difícil. As fases de 0-5 são as mais fáceis. As fases de 6-8 são mais difíceis. As fases 9-11 são as mais difíceis de todo o enigma.</p>
+			<br>
+			<p>Assim:</p>
+			<br>
+			<ul>
+				<li><span>Fase 0 (essa aqui) - Fácil</span></li>
+				<li><span>Fase 1 - Fácil</span></li>
+				<li><span>Fase 2 - Fácil</span></li>
+				<li><span>Fase 3 - Fácil</span></li>
+				<li><span>Fase 4 - Fácil</span></li>
+				<li><span>Fase 5 - Fácil</span></li>
+				<li><span>Fase 6 - Médio</span></li>
+				<li><span>Fase 7 - Médio</span></li>
+				<li><span>Fase 8 - Médio</span></li>
+				<li><span>Fase 9 - Difícil</span></li>
+				<li><span>Fase 10 - Difícil</span></li>
+				<li><span>Fase Final - Difícil</span></li>
+			</ul>
+			<br>
+			<p>Espero que tenha entendido. E ao resolver a última fase do enigma, você terá que me enviar a resposta por WhatsApp e irá ganhar uma surpresa (se for a resposta certa)</p>
+			<br>
+			<p>Enfim, para começar, temos o primeiro enigma:</p>
+			<br>
+			<h4>"Qual a criatura que anda com quatro patas de manhã, duas pernas ao meio-dia e três à noite?"</h4>
+			<p>Decifra-me ou te devoro!</p>
+		</section>
+		<button onclick="responder()">Responder</button>
+		<input type="hidden" value="homem">
+	</center>
+	<script>
+		function responder() {
+			var resposta = prompt("Digite a resposta:", "")
+			if (resposta == null || resposta == "") {
+				alert("Esse campo não pode ficar em branco! Digite sua resposta.")
+			} else if (resposta == "homem") {
+				location.href = "http://localhost/riddle/stuff/a01.html"
+			}
+		}
+	</script>
+</body>
+</html>
