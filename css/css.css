@@ -66,7 +66,7 @@ button:hover {
 }
 
 button:disabled {
-	background: #999;
-	color: #ccc;
+	background: #2C2C2C;
+	color: #686868;
 	cursor: default;
 }
