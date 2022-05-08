@@ -32,25 +32,9 @@
 				<li><span>Fase Final - Difícil</span></li>
 			</ul>
 			<br>
-			<p>Espero que tenha entendido. E ao resolver a última fase do enigma, você terá que me enviar a resposta por WhatsApp e irá ganhar uma surpresa (se for a resposta certa)</p>
-			<br>
-			<p>Enfim, para começar, temos o primeiro enigma:</p>
-			<br>
-			<h4>"Qual a criatura que anda com quatro patas de manhã, duas pernas ao meio-dia e três à noite?"</h4>
-			<p>Decifra-me ou te devoro!</p>
+			<p>Espero que tenha entendido. E ao resolver a última fase do enigma, você terá que me enviar a resposta por WhatsApp e irá ganhar uma surpresa (apenas caso seja a resposta correta).</p>
 		</section>
-		<button onclick="responder()">Responder</button>
-		<input type="hidden" value="homem">
+		<button onclick="redirect('a01')">Começar</button>
 	</center>
-	<script>
-		function responder() {
-			var resposta = prompt("Digite a resposta:", "");
-			if (resposta == null || resposta == "") {
-				alert("Esse campo não pode ficar em branco! Digite sua resposta.");
-			} else if (resposta == "homem") {
-				redirect("a01");
-			}
-		}
-	</script>
 </body>
 </html>

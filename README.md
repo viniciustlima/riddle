@@ -18,3 +18,18 @@ A cada fase que você passa, o enigma fica mais difícil. As fases de 0-5 são a
 * gr9 - Fase 9
 * ve0 - Fase 10
 * fsf - Fase final
+
+## Respostas
+
+* Fase inicial - homem
+* Fase 1 - eureka
+* Fase 2 - 
+* Fase 3 - 
+* Fase 4 - 
+* Fase 5 - 
+* Fase 6 - 
+* Fase 7 - 
+* Fase 8 - 
+* Fase 9 - 
+* Fase 10 - 
+* Fase final - 

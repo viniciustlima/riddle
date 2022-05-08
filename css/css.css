@@ -54,10 +54,6 @@ h4 {
 	margin-bottom: 10px;
 }
 
-p:last-child {
-	text-align: center;
-}
-
 button {
 	border: 0;
 	background: white;
