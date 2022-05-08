@@ -3,25 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Esfinge</title>
+	<title>Fase 1</title>
 	<link rel="stylesheet" href="../css/css.css">
 	<script src="../js/js.js"></script>
 </head>
 <body>
 	<center>
-		<section>
-			<p>Decifra-me ou te devoro!</p>
+		<section style="max-width: 350px;">
+			<p>Sou o símbolo de que algo mal nunca mais irá acontecer.</p>
 		</section>
 		<button onclick="responder()">Responder</button>
+		<button onclick="dica()">Pedir dica</button>
 	</center>
 	<script>
 		function responder() {
 			var resposta = prompt("Digite a resposta:", "");
 			if (resposta == null || resposta == "") {
 				alert("Esse campo não pode ficar em branco! Digite sua resposta.");
-			} else if (resposta == "homem") {
+			} else if (slug(resposta) == "arco-iris") {
 				redirect("s02");
 			}
+		}
+
+		function dica() {
+			alert("Dilúvio.")
+			document.querySelectorAll("button")[1].disabled = true
 		}
 	</script>
 </body>
