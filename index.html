@@ -13,7 +13,7 @@
 			var resposta = prompt("Digite a senha:", "");
 			if (resposta == null || resposta == "") {
 				location.href = location.href;
-			} else if (resposta == "jeniffer") {
+			} else if (slug(resposta) == "jeniffer") {
 				redirect("fsi")
 				break;
 			}
