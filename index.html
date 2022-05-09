@@ -1,1 +1,23 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport"content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0"><title>Riddle</title><link rel="stylesheet"href="css/css.css"><script src="js/js.js"></script></head><body><script>while(true){var resposta=prompt("Digite a senha:", "");if(resposta==null||resposta==""){location.href=location.href;}else if(slug(resposta).includes("amor")){redirect("fsi");break;}}</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<title>Riddle</title>
+	<link rel="stylesheet"href="css/css.css">
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<script>
+		while (true) {
+			var userAnswer = prompt("Digite a senha:", "");
+			if(userAnswer == null || userAnswer == "") {
+				location.href = location.href;
+			} else if (slug(userAnswer).includes("amor")) {
+				redirect("fsi");
+				break;
+			}
+		}
+	</script>
+</body>
+</html>
