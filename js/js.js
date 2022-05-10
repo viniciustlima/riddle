@@ -15,8 +15,8 @@ function dica() {
 	switch (curLevel) {
 		case "a01": alert("Gênesis 9:11-13."); break;
 		case "s02": alert("O que você está resolvendo agora?"); break;
-		case "7g3": alert("Você pode me enxergar de dia, mas fica mais fácil quando o sol se vai."); break;
-		case "aj4": alert(""); break;
+		case "7g3": alert("Você me enxerga quando o Sol se vai."); break;
+		case "aj4": alert("Eu estou em sua cozinha."); break;
 		case "zn5": alert(""); break;
 		case "kf6": alert(""); break;
 		case "c87": alert(""); break;
