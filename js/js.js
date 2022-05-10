@@ -18,19 +18,73 @@ function dica() {
 	let curLevel = f[f.length-1].split(".")[0];
 
 	switch (curLevel) {
-		case "a01": alert("Gênesis 9:11-13."); break;
-		case "s02": alert("O que você está resolvendo agora?"); break;
-		case "7g3": alert("Você me enxerga quando o Sol se vai."); break;
-		case "aj4": alert("Eu estou em sua cozinha."); break;
-		case "zn5": alert("A morte de estrelas massivas dão origem ao meu nascimento."); break;
-		case "kf6": alert(""); break;
-		case "c87": alert(""); break;
-		case "pi8": alert(""); break;
-		case "gr9": alert(""); break;
-		case "ve0": alert(""); break;
-		case "fsf": alert(""); break;
+		case "a01": 
+			alert("Gênesis 9:11-13.");
+			disableButton();
+			break;
+
+		case "s02": 
+			alert("O que você está resolvendo agora?");
+			disableButton();
+			break;
+
+		case "7g3": 
+			alert("Você me enxerga quando o Sol se vai.");
+			disableButton();
+			break;
+
+		case "aj4": 
+			alert("Eu estou em sua cozinha.");
+			disableButton();
+			break;
+
+		case "zn5":
+			usedHints += 1;
+			if (usedHints == 1) {
+				alert("Eu posso bagunçar o tempo.");
+			} else if (usedHints == 2) {
+				alert("Eu sou o centro das galáxias.");
+			} else if (usedHints == 3) {
+				alert("O que de fato eu sou? O que há dentro de mim?\nNingúem sabe. Ainda existem muitos mistérios a meu respeito.");
+				disableButton();
+			}
+		 break;
+
+		case "kf6": 
+			alert(""); 
+			disableButton();
+			break;
+			
+		case "c87": 
+			alert(""); 
+			disableButton();
+			break;
+			
+		case "pi8": 
+			alert(""); 
+			disableButton();
+			break;
+			
+		case "gr9": 
+			alert(""); 
+			disableButton();
+			break;
+			
+		case "ve0": 
+			alert(""); 
+			disableButton();
+			break;
+			
+		case "fsf": 
+			alert(""); 
+			disableButton();
+			break;
+			
 	}
 
+}
+
+function disableButton() {
 	document.querySelectorAll("button")[1].disabled = true;
 }
 
