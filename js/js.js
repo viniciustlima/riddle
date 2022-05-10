@@ -42,37 +42,6 @@ function dica() {
 			alert("Subtraia o sucessor e antecessor de um número. Use o número 5 como exemplo.");
 			disableButton();
 			break;
-
-		case "kf6": 
-			alert(""); 
-			disableButton();
-			break;
-
-		case "c87": 
-			alert(""); 
-			disableButton();
-			break;
-
-		case "pi8": 
-			alert(""); 
-			disableButton();
-			break;
-
-		case "gr9": 
-			alert(""); 
-			disableButton();
-			break;
-
-		case "ve0": 
-			alert(""); 
-			disableButton();
-			break;
-
-		case "fsf": 
-			alert(""); 
-			disableButton();
-			break;
-
 	}
 
 }
