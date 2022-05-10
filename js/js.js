@@ -2,8 +2,13 @@ function responder(levelAnswer, nextLevel) {
 	let userAnswer = prompt("Digite sua resposta:", "");
 	if (userAnswer == null || userAnswer == "") {
 		alert("Esse campo não pode ficar em branco! Digite sua resposta.");
-	} else if (slug(userAnswer).includes(levelAnswer)) {
-		redirect(nextLevel);
+	} else {
+		if (slug(userAnswer).includes(levelAnswer)) {
+			redirect(nextLevel);
+		} else {
+			alert("Resposta incorreta! Tente novamente.");
+			redirect(location.href.split("/")[location.href.split("/").length-1].split(".")[0]);
+		}
 	}
 }
 
