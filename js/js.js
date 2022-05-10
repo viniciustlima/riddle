@@ -39,47 +39,40 @@ function dica() {
 			break;
 
 		case "zn5":
-			usedHints += 1;
-			if (usedHints == 1) {
-				alert("Eu posso bagunçar o tempo.");
-			} else if (usedHints == 2) {
-				alert("Eu sou o centro das galáxias.");
-			} else if (usedHints == 3) {
-				alert("O que de fato eu sou? O que há dentro de mim?\nNingúem sabe. Ainda existem muitos mistérios a meu respeito.");
-				disableButton();
-			}
-		 break;
+			alert("Subtraia o sucessor e antecessor de um número. Use o número 5 como exemplo.");
+			disableButton();
+			break;
 
 		case "kf6": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 		case "c87": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 		case "pi8": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 		case "gr9": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 		case "ve0": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 		case "fsf": 
 			alert(""); 
 			disableButton();
 			break;
-			
+
 	}
 
 }
