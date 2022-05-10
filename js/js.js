@@ -17,7 +17,7 @@ function dica() {
 		case "s02": alert("O que você está resolvendo agora?"); break;
 		case "7g3": alert("Você me enxerga quando o Sol se vai."); break;
 		case "aj4": alert("Eu estou em sua cozinha."); break;
-		case "zn5": alert(""); break;
+		case "zn5": alert("A morte de estrelas massivas dão origem ao meu nascimento."); break;
 		case "kf6": alert(""); break;
 		case "c87": alert(""); break;
 		case "pi8": alert(""); break;
