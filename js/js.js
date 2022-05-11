@@ -42,6 +42,11 @@ function dica() {
 			alert("Subtraia o sucessor e antecessor de um número. Use o número 5 como exemplo.");
 			disableButton();
 			break;
+
+		case "fsf":
+			alert("Você quer um(a) de mim.");
+			disableButton();
+			break;
 	}
 
 }
